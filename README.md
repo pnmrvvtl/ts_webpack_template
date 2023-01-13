@@ -1,1 +1,2 @@
-# ts_webpack_template
+# online-store
+Joint project for the development of an online store.
