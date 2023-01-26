@@ -19,7 +19,7 @@ module.exports = {
     hot: true,
     historyApiFallback: true
   },
-  entry: '/src/index.ts',
+  entry: '/src/index.tsx',
   output: {
     path: path.resolve(__dirname, 'dist'),
     clean: true,
@@ -82,7 +82,7 @@ module.exports = {
         }
       },
       {
-        test: /\.ts$/,
+        test: /\.tsx?$/,
         use: 'ts-loader',
         exclude: /node_modules/,
       },
